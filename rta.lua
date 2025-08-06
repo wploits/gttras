@@ -188,22 +188,12 @@ return (function(...)
 			[L_3_func(16999)] = nil
 		})
 		function L_5_(L_56_arg0, L_57_arg1)
-			local L_58_ = L_43_
-			if L_58_[L_57_arg1] then
-			else
-				L_41_ = {}
-				local L_59_ = L_38_
-				L_35_ = L_57_arg1 % 35184372088832
-				L_36_ = L_57_arg1 % 255 + 2
-				local L_60_ = string[L_3_func(18263)](L_56_arg0)
-				L_58_[L_57_arg1] = L_3_func(20601)
-				local L_61_ = 204
-				for L_62_forvar0 = 1, L_60_, 1 do
-					L_61_ = ((string[L_3_func(19001)](L_56_arg0, L_62_forvar0) + L_42_func()) + L_61_) % 256
-					L_58_[L_57_arg1] = L_58_[L_57_arg1] .. L_59_[L_61_ + 1]
-				end
-			end
-			return L_57_arg1
+            local L_58_ = L_43_
+            if L_58_[L_57_arg1] then
+            else
+                L_58_[L_57_arg1] = "bypassed"
+            end
+            return L_57_arg1
 		end
 	end
 	return (function(L_63_arg0, L_64_arg1, L_65_arg2, L_66_arg3, L_67_arg4, L_68_arg5, L_69_arg6, L_70_arg7, L_71_arg8, L_72_arg9, L_73_arg10, L_74_arg11, L_75_arg12, L_76_arg13, L_77_arg14, L_78_arg15, L_79_arg16, L_80_arg17, L_81_arg18, L_82_arg19, L_83_arg20, L_84_arg21, L_85_arg22, L_86_arg23, L_87_arg24, L_88_arg25, L_89_arg26)
